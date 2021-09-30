@@ -1,17 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <page-navbar />
+    <!-- <v-for-test /> -->
+<!--     <todo-list />-->
+<!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+    <page-footer />
+    <page-header />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from '@/components/HelloWorld.vue'
+import PageHeader from '@/components/page-header.vue'
+import PageNavbar from '@/components/page-navbar.vue'
+import PageFooter from '@/components/page-footer.vue'
+// import TodoList from '@/components/todo-list.vue'
+// import VForTest from '@/components/v-for-test.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PageHeader,
+    PageNavbar,
+    PageFooter,
+    // HelloWorld,
+    // VForTest,
+    // TodoList,
+    // 'my-component': () => import('./my-async-component')
   }
 }
 </script>
@@ -23,6 +38,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
