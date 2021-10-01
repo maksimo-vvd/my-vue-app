@@ -5,7 +5,7 @@
 <!--     <todo-list />-->
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
     <page-footer />
-    <page-header />
+    <page-header class="hidden" />
   </div>
 </template>
 

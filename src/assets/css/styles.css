@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.user-profile-dropdown{
+    display: none;
+}
+.user-profile:hover .user-profile-dropdown{
+    display: block;
+}
