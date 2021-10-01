@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <page-navbar />
+    <page-header />
+    <page-navbar class="hidden" />
     <!-- <v-for-test /> -->
 <!--     <todo-list />-->
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
     <page-footer />
-    <page-header class="hidden" />
   </div>
 </template>
 
