@@ -1,7 +1,7 @@
 <template lang="html">
 
-  <section class="footer bg-gray-600 text-white">
-    <h1>Page footer Component</h1>
+  <section class="page-calendar">
+    <h1>page-calendar Component</h1>
   </section>
 
 </template>
@@ -9,7 +9,7 @@
 <script lang="js">
 
   export default  {
-    name: 'page-footer',
+    name: 'page-calendar',
     props: [],
     mounted () {
 
@@ -26,12 +26,4 @@
 
     }
 }
-
-
 </script>
-
-<style scoped data-lang="scss">
-  .footer {
-
-  }
-</style>

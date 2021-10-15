@@ -1,11 +1,17 @@
 <template>
   <div id="app">
+
     <page-header />
+
     <page-navbar class="hidden" />
     <!-- <v-for-test /> -->
 <!--     <todo-list />-->
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
+
+    <page-content />
+
     <page-footer />
+
   </div>
 </template>
 
@@ -14,6 +20,7 @@
 import PageHeader from '@/components/page-header.vue'
 import PageNavbar from '@/components/page-navbar.vue'
 import PageFooter from '@/components/page-footer.vue'
+import PageContent from '@/components/page-content.vue'
 // import TodoList from '@/components/todo-list.vue'
 // import VForTest from '@/components/v-for-test.vue'
 
@@ -22,6 +29,7 @@ export default {
   components: {
     PageHeader,
     PageNavbar,
+    PageContent,
     PageFooter,
     // HelloWorld,
     // VForTest,

@@ -1,7 +1,8 @@
 <template lang="html">
 
-  <section class="footer bg-gray-600 text-white">
-    <h1>Page footer Component</h1>
+  <section class="chart-d-3">
+    <h1>chart-d-3 Component</h1>
+    <a href="https://levelup.gitconnected.com/d3-js-and-vue-js-7a6a721eb79f">https://levelup.gitconnected.com/d3-js-and-vue-js-7a6a721eb79f</a>
   </section>
 
 </template>
@@ -9,7 +10,7 @@
 <script lang="js">
 
   export default  {
-    name: 'page-footer',
+    name: 'chart-d-3',
     props: [],
     mounted () {
 
@@ -26,12 +27,4 @@
 
     }
 }
-
-
 </script>
-
-<style scoped data-lang="scss">
-  .footer {
-
-  }
-</style>

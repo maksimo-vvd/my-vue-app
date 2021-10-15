@@ -1,15 +1,44 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import App from './App.vue'
+// https://tproger.ru/articles/routing-in-vue/
+import VueRouter from "vue-router"
+import PageHome from "./components/page-home.vue"
+import PageD3 from "./components/page-d3.vue"
+import PageCalendar from "./components/page-calendar.vue"
 
 import './assets/css/styles.css' // tailwind
 
 
 Vue.use(Vuex)
+Vue.use(VueRouter);
+
+const routes = [
+  {
+    path: "",
+    component: PageHome,
+  },
+  {
+    path: "/d3js",
+    component: PageD3,
+  },
+  {
+    path: "/calendar",
+    component: PageCalendar,
+  },
+];
+
+const router = new VueRouter({
+  routes,
+  mode: "history",
+  linkActiveClass: 'nav-link-current',
+  linkExactActiveClass: "nav-link-exact-current",
+});
 
 Vue.config.productionTip = false
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')
 

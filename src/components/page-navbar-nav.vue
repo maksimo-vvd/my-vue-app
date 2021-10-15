@@ -1,9 +1,29 @@
 <template lang="html">
   <nav class="">
-    <a href="#" class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Dashboard</a>
-    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Team</a>
-    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</a>
-    <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calendar</a>
+    <router-link
+        to="/"
+        exact class="nav-link"
+    >
+      Home
+    </router-link>
+    <router-link
+        to="/d3js"
+        class="nav-link"
+    >
+      D3.js
+    </router-link>
+    <router-link
+        to="/projects"
+        class="nav-link"
+    >
+      Projects
+    </router-link>
+    <router-link
+        to="/calendar"
+        class="nav-link"
+    >
+      Calendar
+    </router-link>
   </nav>
 </template>
 

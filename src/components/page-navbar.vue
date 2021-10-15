@@ -1,5 +1,5 @@
 <template lang="html">
-  <nav class="bg-gray-700 mb-20">
+  <nav class="bg-gray-700">
     <div class="max-w-7xl mx-auto px-2 md:px-6 lg:px-8">
       <div class="flex flex-col items-center justify-center py-3 relative md:flex-row md:justify-start">
 

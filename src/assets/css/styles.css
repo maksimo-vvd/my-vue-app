@@ -3,9 +3,22 @@
 @tailwind utilities;
 
 
+@layer base {
+    .nav-link {
+        @apply text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium
+    }
+    .nav-link-current,
+    .nav-link-exact-current {
+        @apply bg-gray-900 text-white hover:bg-gray-900 hover:text-white cursor-default
+    }
+}
+
 .user-profile-dropdown{
     display: none;
 }
 .user-profile:hover .user-profile-dropdown{
     display: block;
 }
+
+
+

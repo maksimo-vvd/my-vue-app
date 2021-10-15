@@ -828,6 +828,8 @@ module.exports = {
   variants: {
     extend: {
       display: ['hover', 'focus'],
+      backgroundColor: ['disabled'],
+      textColor: ['disabled'],
     },
     accessibility: ['responsive', 'focus-within', 'focus'],
     alignContent: ['responsive'],
