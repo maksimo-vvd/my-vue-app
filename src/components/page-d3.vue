@@ -15,15 +15,16 @@
 
   import ChartD3 from "./chart-d3";
   export default  {
-    name: 'page-d-3',
+    name: 'page-d3',
     components: {ChartD3},
     props: [],
     mounted () {
-
+      console.log("chart-d3 loaded")
+      this.fetchData();
     },
     data () {
       return {
-
+        loadData: {}
       }
     },
     methods: {
