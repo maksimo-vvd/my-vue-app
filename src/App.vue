@@ -3,7 +3,7 @@
 
     <page-header />
 
-    <page-navbar class="hidden" />
+<!--    <page-navbar class="hidden" />-->
     <!-- <v-for-test /> -->
 <!--     <todo-list />-->
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
@@ -18,7 +18,7 @@
 <script>
 // import HelloWorld from '@/components/HelloWorld.vue'
 import PageHeader from '@/components/page-header.vue'
-import PageNavbar from '@/components/page-navbar.vue'
+// import PageNavbar from '@/components/page-navbar.vue'
 import PageFooter from '@/components/page-footer.vue'
 import PageContent from '@/components/page-content.vue'
 // import TodoList from '@/components/todo-list.vue'
@@ -28,7 +28,7 @@ export default {
   name: 'App',
   components: {
     PageHeader,
-    PageNavbar,
+    // PageNavbar,
     PageContent,
     PageFooter,
     // HelloWorld,

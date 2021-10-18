@@ -60,10 +60,10 @@
       userProfileNav
     },
     props: {
-      isUserProfileNavShowing: {
-        type: Boolean,
-        required: true,
-      },
+      // isUserProfileNavShowing: {
+      //   type: Boolean,
+      //   required: true,
+      // },
       isMobile: {
         type: Boolean,
         required: true,
@@ -78,7 +78,10 @@
       }
     },
     methods: {
-      onUserProfileIconClick(value) { this.$emit('click', value) },
+      onUserProfileIconClick(value) {
+        if (this.isMobile) this.$emit('click', value)
+      },
+      // TODO Fix open menu on click when view is desktop
     },
     computed: {
 

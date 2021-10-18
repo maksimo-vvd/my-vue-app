@@ -50,6 +50,7 @@
     name: 'page-navbar-mobile-btn',
     props: {
       isBurgerBtnPressed: {
+      // isMenuShowing: {
         type: Boolean,
         required: true,
         // default: () => false, ????

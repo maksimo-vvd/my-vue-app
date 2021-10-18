@@ -7,7 +7,7 @@
 
         <page-navbar-mobile-btn
             class="ml-3 absolute right-0 top-2 md:hidden"
-            :is-menu-showing="isBurgerBtnPressed"
+            :is-burger-btn-pressed="isBurgerBtnPressed"
             @click="toggleBurger"
         />
 
